@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CD4046BE
+D CMOS MICROPOWER PHASE LOCKED LOOP
+K
+F http://www.ti.com/lit/gpn/cd4046b
+$ENDCMP
+#
+#End Doc Library
