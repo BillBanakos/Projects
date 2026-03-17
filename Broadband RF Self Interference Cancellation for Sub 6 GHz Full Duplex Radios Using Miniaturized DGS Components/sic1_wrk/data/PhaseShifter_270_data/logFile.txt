@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 551.shp Oct 27 2021, MINT version 5
+    (64-bit windows built: Thu Oct 28, 2021 03:25:42 +0000)
+
+
+***** Simulation started at Thu Mar 12 19:58:02 2026
+      Running on host: "PC-BILL"
+      In Directory: "C:\Users\bbana\Desktop\my_projects\sic\sic1_wrk\data"
+      Process ID: 14188
+
+
+SP SP1[1] <sic1_lib:PhaseShifter_270:schematic>   freq=3.5 GHz
+
+
+Resource usage:
+  Total stopwatch time     =     4.79 seconds.
+

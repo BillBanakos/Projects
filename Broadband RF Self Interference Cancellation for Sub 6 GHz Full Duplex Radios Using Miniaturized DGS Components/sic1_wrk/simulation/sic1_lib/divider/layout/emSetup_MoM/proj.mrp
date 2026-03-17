@@ -1,0 +1,28 @@
+
+--- WARNING -------------------------------------------------------------------
+
+Polyline edges and/or wires have been found on
+STRIP layer <mask 2> and will be ignored. Their
+location has been written to the DRC report.
+
+-------------------------------------------------------------------------------
+
+Using the minimal snap distance of 0.004 mil
+(4 layout resolution points) for layout healing.
+
+--- WARNING -------------------------------------------------------------------
+
+Pin P4 is positioned on more than one edge.
+Move the pin away from any unintended edges.
+
+-------------------------------------------------------------------------------
+
+
+--- WARNING -------------------------------------------------------------------
+
+Pin P5 is positioned on more than one edge.
+Move the pin away from any unintended edges.
+
+-------------------------------------------------------------------------------
+
+Generating mesh at 5 GHz...

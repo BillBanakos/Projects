@@ -1,0 +1,16 @@
+#Momentum: B.2022.10.406 (*) built: Oct  9 2021 
+#Momentum Date and Time: Thu Mar 12 13:18:26 2026
+
+Overall database status : 1 (file present and valid)
+
+Frequency range : from 0.01386673948 GHz to 10 GHz.
+
+Requested frequency range : from 2 GHz to 5 GHz.
+
+Individual status fields : (0 = FALSE, 1 = TRUE)
+ File exists             : 1
+ Substrates match        : 1
+ Frequency-range matches : 1
+
+Corresponding potentialpath : C:\Users\Vasileios Banakos/
+Corresponding potentialname : C:\Users\Vasileios Banakos\\substrates\0000.sdb

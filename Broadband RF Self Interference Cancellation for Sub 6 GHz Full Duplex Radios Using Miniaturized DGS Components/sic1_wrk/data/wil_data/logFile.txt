@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 551.shp Oct 27 2021, MINT version 5
+    (64-bit windows built: Thu Oct 28, 2021 03:25:42 +0000)
+
+
+***** Simulation started at Thu Mar 12 14:48:59 2026
+      Running on host: "DESKTOP-2MR1BFB"
+      In Directory: "C:\Users\Vasileios Banakos\Documents\GitHub\my_projects\sic\sic1_wrk\data"
+      Process ID: 16548
+
+
+SP SP1[1] <sic1_lib:wil:schematic>   freq=(2 GHz->5 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     5.05 seconds.
+

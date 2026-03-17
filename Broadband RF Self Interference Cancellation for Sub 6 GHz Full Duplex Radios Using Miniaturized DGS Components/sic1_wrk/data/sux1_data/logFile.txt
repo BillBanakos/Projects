@@ -1,0 +1,102 @@
+
+hpeesofsim (*) 551.shp Oct 27 2021, MINT version 5
+    (64-bit windows built: Thu Oct 28, 2021 03:25:42 +0000)
+
+
+***** Simulation started at Wed Mar 11 22:45:07 2026
+      Running on host: "PC-BILL"
+      In Directory: "C:\Users\bbana\Desktop\sic\sic1_wrk\data"
+      Process ID: 15552
+
+
+HB HB1[1] <sic1_lib:sux1:schematic>
+Pt DC convergence is used.
+Warning detected by hpeesofsim during TRAN analysis `HB1'.
+    COMPONENT `X1.em_data':
+       Simulator uses frequency lower than frequency range of model. The S-parameters are extrapolated.
+
+Warning detected by hpeesofsim during TRAN analysis `HB1'.
+    COMPONENT `X1.em_data':
+       S-parameter passivity is enforced.
+
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  16.
+    Number of HB equations (problem size): 286.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+Warning detected by hpeesofsim during HB analysis `HB1'.
+    COMPONENT `X1.em_data':
+       Simulator uses frequency higher than frequency range for model. The S-parameters are extrapolated.
+
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	422.137 mA  	100.0             
+1.0 	1.79274 fA  	100.0	627.848 aV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__9                    3.487e-03       >       1.692e-06
+N__2                    3.269e-03       >       1.661e-06
+AMP1.SDD3P3.i2          6.539e-05       >       1.013e-06
+AMP2.SDD3P3.i2          6.160e-05       >       1.013e-06
+
+o Number of waveforms violating the HB truncation error check:
+        4 out of 10 waveforms.
+o Estimated max HB truncation error: 3.487e-03 @ waveform N__9 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.692e-06 for this waveform.
+o A time-domain plot of the N__2 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB HB1[1] <sic1_lib:sux1:schematic>
+    Number of tones:   2.
+    Number of frequencies:   49.
+    Number of time samples:  128.
+    Number of HB equations (problem size): 2522.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: Krylov (GS_GMRES).
+    Preconditioner: DCP.
+    The general solver is used for HB Krylov preconditioning.
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	28.7021 mA  	100.0             
+1 	666.101 mA  	100.0	2.2564 V    	  2	5.735e-16   
+2 	3.62752 fA  	100.0	3.01232 V   	  1	4.212e-16   
+3 	2.026 fA    	100.0	2.57061 fV  	  2	2.616e-15   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__9                    6.669e-05       >       1.442e-06
+N__2                    5.687e-05       >       1.422e-06
+AMP1.SDD3P3.i2          1.137e-06       >       1.008e-06
+
+o Number of waveforms violating the HB truncation error check:
+        3 out of 10 waveforms.
+o Estimated max HB truncation error: 6.669e-05 @ waveform N__9 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.442e-06 for this waveform.
+o A time-domain plot of the N__2 waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+Resource usage:
+  Total stopwatch time     =    12.99 seconds.
+

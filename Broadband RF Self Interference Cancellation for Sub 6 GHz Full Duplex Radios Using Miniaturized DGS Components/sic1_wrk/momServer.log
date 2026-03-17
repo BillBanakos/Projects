@@ -1,0 +1,19 @@
+Momentum Server logfile: momServer.log
+
+EM Model generation from "sic1_lib:final_coupler:emModel"
+  parameterNames = list("Substrate","MeshDensity")
+  parameterValues = list("definedInState","20")
+  topLevel design name = "sic1_lib:neo_teliko_test:schematic"
+  instance name = "X3.em_data"
+  processID = "61130@127.0.0.1:hpeesofsim:_unique61126_1"
+  visible = TRUE
+Connected to external process by processID
+..handle = 15
+..pid = 61130@127.0.0.1:hpeesofsim:_unique61126_1
+..name = hpeesofsim
+..disable simulation log popup
+..simulation M260312190931 started
+..simulation M260312190931 ended
+EM simulation finished successfully
+..adding new data to EM model view: Success Added simulation data.
+..sending DONE to parent

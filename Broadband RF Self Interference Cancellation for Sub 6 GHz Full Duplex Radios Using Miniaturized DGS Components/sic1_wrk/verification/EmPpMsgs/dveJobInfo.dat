@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=sic1_lib:final_coupler:layout
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

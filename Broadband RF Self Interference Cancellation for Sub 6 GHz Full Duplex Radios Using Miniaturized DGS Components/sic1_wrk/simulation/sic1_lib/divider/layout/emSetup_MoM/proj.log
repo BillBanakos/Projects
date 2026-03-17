@@ -1,0 +1,95 @@
+License checkout took 4.117 sec
+License checkout took 3.232 sec
+Momentum MomEngine_64 2022.10.406 (*) built: Oct  9 2021
+Copyright  1992 - 2021 Keysight Technologies
+Simulation started on: Thu Mar 12 14:46:52 2026
+Simulation Mode: uW
+Substrate valid
+
+--- WARNING -------------------------------------------------------------------
+
+Polyline edges and/or wires have been found on
+STRIP layer <mask 2> and will be ignored. Their
+location has been written to the DRC report.
+
+-------------------------------------------------------------------------------
+Using the minimal snap distance of 0.004 mil
+(4 layout resolution points) for layout healing.
+
+--- WARNING -------------------------------------------------------------------
+
+Pin P4 is positioned on more than one edge.
+Move the pin away from any unintended edges.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+Pin P5 is positioned on more than one edge.
+Move the pin away from any unintended edges.
+
+-------------------------------------------------------------------------------
+Layout simplification started
+.........|.........|.........|.........| 
+Layout simplification finished
+Generating mesh at 5 GHz...
+S-parameter simulation
+S-parameter simulation started
+...initializing
+...extracting layout
+...analyzing ports
+...reducing mesh
+Automatic selection: direct dense matrix solver
+Using multi-threading (16 threads)
+Matrix size: 34 (reduced: 27)
+Simulation temperature: 298.15 K
+Adaptive frequency sweep started
+Simulation frequency [1] = 2 GHz
+...loading Green functions
+...creating Basis sections
+...allocating interaction matrix
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [2] = 5 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive:   0.0 % of frequency range covered
+Simulation frequency [3] = 4 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [4] = 3 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [5] = 4.66667 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [6] = 2.16667 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive: 100.0 % of frequency range covered
+S-parameter simulation finished
+Simulation finished on: Thu Mar 12 14:46:54 2026
+The simulation results have been saved in dataset "divider_MomUW".
