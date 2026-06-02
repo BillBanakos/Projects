@@ -1,0 +1,8 @@
+$begin 'CacheDataVersion'
+	DataVersion=67
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	feedy='8mm'
+	feedx='12mm'
+	Wsub='6mm'
+$end 'VariableValues'

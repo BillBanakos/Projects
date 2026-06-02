@@ -1,0 +1,302 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002026, month=000000000006, day=000000000001, hour=000000000020, min=000000000005, sec=000000000031)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000009172, lin=000000000279, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock13'
+	SimSetupID=59
+	SimSetupName='Setup1'
+	VersionID=7264
+	$begin 'EmConvergenceData'
+		EmConv(VID=7113, Ver=7264, EmConv='DV7113_S59_V7264.EMConvData')
+	$end 'EmConvergenceData'
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		M(VID=7113, Ver=7264, Dir='DV7113_S59_V7264.cmesh/')
+	$end 'CurrMeshes'
+	MeshAssemVersionID=12
+	$begin 'NextAssemVersionID'
+		NextUniqueID=13
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'CurrentMeshG3DErrorDir'
+		ME(VID=7113, Ver=7264, Dir='DV7113_S59_V7264.g3derr/')
+	$end 'CurrentMeshG3DErrorDir'
+	$begin 'ADP'
+		$begin 'SubData'
+			ID=10
+			ADP(VID=7113, Ver=7264, Dir='DV7113_S59_ADP10_V7264.sd/')
+		$end 'SubData'
+	$end 'ADP'
+	$begin 'SU'
+		$begin 'SubData'
+			ID=1
+			SU(VID=7113, Ver=7264, File='DV7113_S59_SD1_V7264.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			SU(VID=7113, Ver=7264, File='DV7113_S59_SD2_V7264.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			SU(VID=7113, Ver=7264, File='DV7113_S59_SD3_V7264.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			SU(VID=7113, Ver=7264, File='DV7113_S59_SD4_V7264.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			SU(VID=7113, Ver=7264, File='DV7113_S59_SD5_V7264.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			SU(VID=7113, Ver=7264, File='DV7113_S59_SD6_V7264.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			SU(VID=7113, Ver=7264, File='DV7113_S59_SD7_V7264.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			SU(VID=7113, Ver=7264, File='DV7113_S59_SD8_V7264.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			SU(VID=7113, Ver=7264, File='DV7113_S59_SD9_V7264.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			SU(VID=7113, Ver=7264, File='DV7113_S59_SD10_V7264.su')
+		$end 'SubData'
+	$end 'SU'
+	$begin 'WaveAdapt'
+		WA(VID=7113, Ver=7264, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=7113, Ver=7264, P=10)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=7113, Ver=7264, File='DV7113_S59_V7264.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=7113, Ver=7264, Dir='DV7113_S59_MI0_V7264.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock13'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=59, Instance=\'SetupDefinition\', Solution=-1, VersionID=7264)'='SolutionBlock13'
+	'SolutionKey(SimSetup=59, Instance=\'SolutionDefinition\', Solution=60, VersionID=7264)'='SolutionBlock10'
+	'SolutionKey(SimSetup=59, Instance=\'SolutionDefinition\', Solution=61, VersionID=7376)'='SolutionBlock15'
+	'SolutionKey(SimSetup=59, Instance=\'SolutionDefinition\', Solution=65, VersionID=7264)'='SolutionBlock12'
+$end 'BlockMapName'
+$begin 'SolutionBlock15'
+	SolutionName='LastAdaptive'
+	SolutionID=61
+	V=7376
+	$begin 'States'
+		F(VID=7113, Ver=7376)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(2400000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=7113, Ver=7376, File='DV7113_SOL61_M0_V7376.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(7186, 2400000000, 7370, 2460000000)
+		$begin 'DataMap'
+			VID=7113
+			Ver=7376
+			F(DblID=7186, Dir='DV7113_S61_V7376_F7186/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock15'
+$begin 'SolutionBlock10'
+	SolutionName='AdaptivePass'
+	SolutionID=60
+	V=7264
+	$begin 'States'
+		F(VID=7113, Ver=7264)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(2400000000, 2460000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=7113, Ver=7264, File='DV7113_SOL60_M1_V7264.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=7113, Ver=7264, File='DV7113_SOL60_M2_V7264.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			M(VID=7113, Ver=7264, File='DV7113_SOL60_M3_V7264.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			M(VID=7113, Ver=7264, File='DV7113_SOL60_M4_V7264.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			M(VID=7113, Ver=7264, File='DV7113_SOL60_M5_V7264.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			M(VID=7113, Ver=7264, File='DV7113_SOL60_M6_V7264.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			M(VID=7113, Ver=7264, File='DV7113_SOL60_M7_V7264.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			M(VID=7113, Ver=7264, File='DV7113_SOL60_M8_V7264.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			M(VID=7113, Ver=7264, File='DV7113_SOL60_M9_V7264.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			M(VID=7113, Ver=7264, File='DV7113_SOL60_M10_V7264.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock10'
+$begin 'SolutionBlock12'
+	SolutionName='Sweep'
+	SolutionID=65
+	V=7264
+	$begin 'States'
+		F(VID=7113, Ver=7264)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000, 1020000000, 1040000000, 1060000000, 1080000000, 1100000000, 1120000000, 1140000000, 1160000000, 1180000000, 1200000000, 1220000000, 1240000000, 1260000000, 1280000000, 1300000000, 1320000000, 1340000000, 1360000000, 1380000000, 1400000000, 1420000000, 1440000000, 1460000000, 1480000000, 1500000000, 1520000000, 1540000000, 1560000000, 1580000000, 1600000000, 1620000000, 1640000000, 1660000000, 1680000000, 1700000000, 1720000000, 1740000000, 1760000000, 1780000000, 1800000000, 1820000000, 1840000000, 1860000000, 1880000000, 1900000000, 1920000000, 1940000000, 1960000000, 1980000000, 2000000000, 2020000000, 2040000000, 2060000000, 2080000000, 2100000000, 2120000000, 2140000000, 2160000000, 2180000000, 2200000000, 2220000000, 2240000000, 2260000000, 2280000000, 2300000000, 2320000000, 2340000000, 2360000000, 2380000000, 2400000000, 2420000000, 2440000000, 2460000000, 2480000000, 2500000000, 2520000000, 2540000000, 2560000000, 2580000000, 2600000000, 2620000000, 2640000000, 2660000000, 2680000000, 2700000000, 2720000000, 2740000000, 2760000000, 2780000000, 2800000000, 2820000000, 2840000000, 2860000000, 2880000000, 2900000000, 2920000000, 2940000000, 2960000000, 2980000000, 3000000000)
+		SolutionType=5
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=7113, Ver=7264, File='DV7113_SOL65_M0_V7264.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'TransientSolveStauts'
+		SS(VID=7113, Ver=7264, SS=1)
+	$end 'TransientSolveStauts'
+	$begin 'SolverUsage'
+		IDDblMap(7215, 3000000000, 7216, 1000000000, 7218, 2000000000, 7219, 1500000000, 7220, 1250000000, 7221, 2700000000, 7222, 2550000000, 7223, 2625000000, 7224, 2200000000, 7225, 2100000000, 7226, 1750000000, 7356, 2850000000, 7371, 2730000000, 7372, 2595000000, 7373, 2230000000, 7374, 2345000000, 7375, 1875000000)
+		$begin 'DataMap'
+			VID=7113
+			Ver=7264
+			SU(DblID=7216, SU='DV7113_S65_V7264_F7216_SU.txt')
+			SU(DblID=7220, SU='DV7113_S65_V7264_F7220_SU.txt')
+			SU(DblID=7219, SU='DV7113_S65_V7264_F7219_SU.txt')
+			SU(DblID=7218, SU='DV7113_S65_V7264_F7218_SU.txt')
+			SU(DblID=7225, SU='DV7113_S65_V7264_F7225_SU.txt')
+			SU(DblID=7224, SU='DV7113_S65_V7264_F7224_SU.txt')
+			SU(DblID=7222, SU='DV7113_S65_V7264_F7222_SU.txt')
+			SU(DblID=7221, SU='DV7113_S65_V7264_F7221_SU.txt')
+			SU(DblID=7356, SU='DV7113_S65_V7264_F7356_SU.txt')
+			SU(DblID=7215, SU='DV7113_S65_V7264_F7215_SU.txt')
+		$end 'DataMap'
+	$end 'SolverUsage'
+$end 'SolutionBlock12'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=7264
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=7392
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='feedx=\'12mm\' feedy=\'8mm\'', ID=7071)
+		Map(V='feedx=\'12mm\' feedy=\'8mm\' Wsub=\'6mm\'', ID=7113)
+		Map(V='feedx=\'16mm\' feedy=\'8mm\' Wsub=\'6mm\'', ID=7227)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=7113, Ver=7264, Dir='DV7113_V7264.imesh/')
+	$end 'InitialMeshes'
+	MeshAssemVersionID=12
+	$begin 'NextAssemVersionID'
+		NextUniqueID=13
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'MeshImprintMap'
+		MI(VID=7113, Ver=7264, MI='DV7113_V7264.Imprint.idmap')
+	$end 'MeshImprintMap'
+	$begin 'DefinitionMeshes'
+		$begin 'DefMeshes_Comp-1'
+			DefinitionID=-1
+			VersionID=11
+			VIDMap('Wsub=\'6mm\'', 7181)
+			DM(VID=7181, Ver=11, Dir='NDV7181_V11.dmesh/')
+		$end 'DefMeshes_Comp-1'
+	$end 'DefinitionMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=7113, Ver=7264, Dir='DV7113_MI0_V7264.sd/')
+		$end 'SubData'
+	$end 'MI'
+	VersionID2=7265
+$end 'SolutionBlock1'
+$begin 'OptimetricsResults'
+$end 'OptimetricsResults'
+$begin 'ResponseSurfaceCache'
+	ResponseSurfaceCache()
+$end 'ResponseSurfaceCache'
+$begin '$index$'
+	$begin '$index$'
+		ResponseSurfaceCache(pos=9090, lin=276, lvl=0)
+		BlockMapName(pos=2523, lin=86, lvl=0)
+		SolutionBlock10(pos=3718, lin=126, lvl=0)
+		SolutionBlock15(pos=3023, lin=93, lvl=0)
+		SolutionBlock12(pos=5158, lin=187, lvl=0)
+		SolutionBlock13(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=7908, lin=232, lvl=0)
+		OptimetricsResults(pos=9036, lin=274, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=9172, lin=279, lvl=0)
+	$end '$index$'
+$end '$index$'
