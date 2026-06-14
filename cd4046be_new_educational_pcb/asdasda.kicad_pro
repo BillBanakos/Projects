@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -188,6 +188,7 @@
       ],
       "track_widths": [
         0.0,
+        0.8,
         1.0,
         10.0
       ],
@@ -466,7 +467,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "rf.kicad_pro",
+    "filename": "asdasda.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -502,7 +503,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/bbana/Desktop/",
+      "plot": "C:/Users/bbana/Desktop/newnewpcb/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

@@ -188,6 +188,8 @@
       ],
       "track_widths": [
         0.0,
+        0.6,
+        0.8,
         1.0,
         10.0
       ],
@@ -466,7 +468,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "rf.kicad_pro",
+    "filename": "as.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -502,7 +504,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/bbana/Desktop/",
+      "plot": "C:/Users/bbana/Desktop/fiest pcb/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

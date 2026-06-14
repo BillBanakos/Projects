@@ -1835,7 +1835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCad:DIP794W53P254L1930H508Q16N"
+		(property "Footprint" "Package_DIP:CERDIP-16_W7.62mm_SideBrazed"
 			(at 165.1 144.45 0)
 			(effects
 				(font
