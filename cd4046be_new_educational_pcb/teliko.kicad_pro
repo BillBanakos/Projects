@@ -211,7 +211,6 @@
       ],
       "track_widths": [
         0.0,
-        0.8,
         1.0,
         10.0
       ],
@@ -461,11 +460,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -488,6 +490,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -501,7 +504,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "asdasda.kicad_pro",
+    "filename": "teliko.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -538,7 +541,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/bbana/Desktop/newnewpcb/",
+      "plot": "C:/Users/bbana/Desktop/kalivas_pll_rf/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -549,6 +552,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -628,6 +635,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -649,8 +657,17 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -662,16 +679,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "asdasda.kicad_sch",
-        "name": "asdasda",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "teliko.kicad_sch",
+        "name": "rf",
+        "uuid": "bd49dab0-12b6-4327-a1c4-25d038404486"
       }
-    ]
+    ],
+    "used_designators": "J10",
+    "variants": []
   },
   "sheets": [
     [
       "bd49dab0-12b6-4327-a1c4-25d038404486",
-      "Root"
+      "rf"
     ]
   ],
   "text_variables": {},

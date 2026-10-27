@@ -500,7 +500,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "partial_rf.kicad_pro",
+    "filename": "pragmatikh.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -537,7 +537,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/bbana/Documents/pll_final/",
+      "plot": "C:/Users/bbana/Desktop/kalivas_pll_rf/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -669,8 +669,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "partial_rf.kicad_sch",
-        "name": "partial_rf",
+        "filename": "rf.kicad_sch",
+        "name": "rf",
         "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ]
